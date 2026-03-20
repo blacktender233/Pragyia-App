@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-slide: slide 1s linear infinite;
+  
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+}
+
+.bg-dashed-line {
+  background-image: linear-gradient(to right, #D1D5DB 50%, transparent 50%);
+  background-size: 40px 100%;
+}

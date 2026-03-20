@@ -1,0 +1,9 @@
+{
+  "name": "OSAAT",
+  "description": "One Step At A Time - A 24/7 rickshaw transportation service app based in Obuasi, Ashanti Region, Ghana.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone",
+    "camera"
+  ]
+}
